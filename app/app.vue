@@ -11,17 +11,14 @@ useHead({
   }
 })
 
-const title = "SkuliX's Utility website"
-const description = "Are you bored of websites like youtube downloader not working or being ridled with ads, search no more here you can download youtube videos and much more. Have fun using"
+const title = "SkuliX Utility website"
+const description = "Ultimate ulitty website."
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterCard: 'summary_large_image'
 })
 </script>
 
@@ -29,18 +26,16 @@ useSeoMeta({
   <UApp>
     <UHeader>
       <template #left>
-        <NuxtLink to="/">
-          <AppLogo class="w-auto h-6 shrink-0" />
+        <NuxtLink to="/" class="flex items-center justify-center flex-row space-x-2">
+          <img src="https://i.ibb.co/8Dj6m6L4/129431960.png" height="50" width="50"
+            class="hidden md:block rounded-2xl"></img>
+          <p class="font-bold">SkuliX Ultimate Utility</p>
         </NuxtLink>
-
-        <TemplateMenu />
       </template>
 
       <template #right>
         <UColorModeButton />
 
-        <UButton to="https://github.com/nuxt-ui-templates/starter" target="_blank" icon="i-simple-icons-github"
-          aria-label="GitHub" color="neutral" variant="ghost" />
       </template>
     </UHeader>
 
@@ -48,18 +43,13 @@ useSeoMeta({
       <NuxtPage />
     </UMain>
 
-    <USeparator icon="i-simple-icons-nuxtdotjs" />
+    <USeparator />
 
     <UFooter>
-      <template #left>
-        <p class="text-sm text-muted">
-          Built with Nuxt UI • © {{ new Date().getFullYear() }}
+      <template #default>
+        <p class="text-sm text-muted text-center">
+          Built with ❤️ by <a href="https://github.com/SkuliX01" class="underline">SkuliX</a>
         </p>
-      </template>
-
-      <template #right>
-        <UButton to="https://github.com/nuxt-ui-templates/starter" target="_blank" icon="i-simple-icons-github"
-          aria-label="GitHub" color="neutral" variant="ghost" />
       </template>
     </UFooter>
   </UApp>
