@@ -1,8 +1,8 @@
 # SkuliX utility website
 
 ```
-Have you been ever angry at those youtube downloader apps? some works some dosen't, some of them are riddled with ads.
-Don't look more I present to you SkuliX Utility website which combines usefull tools and features into one site fully run by me without any ads or logging.
+Have you ever been angry at those YouTube downloader apps? Some work, some don't, and others are riddled with ads.
+Don't look any further—I present to you the SkuliX Utility website! It combines useful tools and features into one ad-free site with no logging, fully run by me.
 ```
 
 
